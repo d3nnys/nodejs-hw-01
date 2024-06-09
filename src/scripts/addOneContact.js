@@ -4,12 +4,13 @@ import fs from 'node:fs';
 
 export const addOneContact = async () => {
   try {
-    const data = fs.readFile(PATH_DB, 'utf-8');
+    const data = fs.readFileSync(PATH_DB, 'utf-8');
     const contacts = JSON.parse(data);
 
-    contacts.push(createFakeContact);
+    const newContact = createFakeContact();
+    contacts.push(newContact);
 
-    fs.writeFile(PATH_DB, JSON.stringify(contacts), 'utf-8');
+    fs.writeFileSync(PATH_DB, JSON.stringify(contacts, null, 2), 'utf-8');
   } catch (error) {
     console.log(error.message);
   }
