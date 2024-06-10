@@ -1,1 +1,44 @@
-[]
+[
+  {
+    "name": "Ms. Yolanda Brown",
+    "phone": "846.274.9512",
+    "email": "Ruthe.McKenzie@gmail.com",
+    "job": "Customer Tactics Administrator"
+  },
+  {
+    "name": "Armando Schmidt",
+    "phone": "1-869-894-1770",
+    "email": "Kattie87@hotmail.com",
+    "job": "Principal Program Specialist"
+  },
+  {
+    "name": "Kelley Mosciski",
+    "phone": "517-315-3480 x7491",
+    "email": "Gideon.Sipes@gmail.com",
+    "job": "Central Brand Administrator"
+  },
+  {
+    "name": "Kayla Schaefer",
+    "phone": "335-970-6075 x8728",
+    "email": "Jennings.Rippin@hotmail.com",
+    "job": "Chief Response Administrator"
+  },
+  {
+    "name": "Constance Luettgen",
+    "phone": "1-511-688-4630 x68595",
+    "email": "Gayle.Kub@gmail.com",
+    "job": "Central Quality Coordinator"
+  },
+  {
+    "name": "Mrs. Marsha Considine",
+    "phone": "1-259-913-7411 x783",
+    "email": "Oliver29@hotmail.com",
+    "job": "Chief Data Strategist"
+  },
+  {
+    "name": "Suzanne Donnelly",
+    "phone": "(528) 384-8221 x51602",
+    "email": "Seamus_Wilderman@hotmail.com",
+    "job": "District Optimization Supervisor"
+  }
+]

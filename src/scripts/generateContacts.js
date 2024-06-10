@@ -7,7 +7,7 @@ const generateContacts = async (number) => {
     const data = fs.readFileSync(PATH_DB, 'utf-8');
     const contacts = JSON.parse(data);
 
-    for (let i = 0; i < number; i + 1) {
+    for (let i = 0; i < number; i += 1) {
       const newContact = createFakeContact();
       contacts.push(newContact);
     }
